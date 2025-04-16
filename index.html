@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Resume - Anshun Sachin Patil</title>
+  <!-- Importing a Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    /* Header Styles */
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    /* Navigation Bar */
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+    }
+    nav li {
+      margin: 0 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #e74c3c;
+    }
+    /* Container for Main Content */
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    /* Section Titles */
+    .section-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    /* About & Experience Sections */
+    section {
+      margin-bottom: 40px;
+    }
+    /* Projects - Card Layout */
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    /* Footer */
+    footer {
+      background-color: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+    }
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      nav a {
+        font-size: 16px;
+      }
+      .section-title {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header>
+    <h1>Anshun Sachin Patil</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Main Content Container -->
+  <div class="container">
+    <!-- About Section -->
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <p>I'm Anshun Sachin Patil, a tennis enthusiast with over 10 years of experience in Nashik, and a national competitive circuit player. I also have a passion for digital business, entrepreneurship, and web development. This site serves as my personal resume and portfolio.</p>
+    </section>
+    
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2 class="section-title">Experience</h2>
+      <p>My journey in tennis and digital ventures has equipped me with leadership skills, creative problem solving, and a strong business acumen. Over the years, I've organized community events, including a zero-budget tennis camp, and developed web projects that showcase my technical and creative abilities.</p>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="card-container">
+        <div class="card">
+          <h3>Zero-Budget Tennis Camp</h3>
+          <p>Organized a personalized 4-hour tennis camp for 12 students (each paying ₹1,000), focusing on close mentorship and peer-led coaching. This camp generated ₹12,000 in revenue while fostering community and learning.</p>
+        </div>
+        <div class="card">
+          <h3>Personal Resume Website</h3>
+          <p>Built and continuously enhanced my personal resume website using modern HTML and CSS techniques, including Flexbox and Grid layouts. This project reflects my passion for web development and creative design.</p>
+        </div>
+        <div class="card">
+          <h3>Entrepreneurial Ventures</h3>
+          <p>Participated in various entrepreneurial projects, applying digital business and innovative strategies to solve real-world challenges, blending creativity with technical skills.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p>Email: anshun@example.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/anshunsachinpatil" target="_blank">linkedin.com/in/anshunsachinpatil</a></p>
+    </section>
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Anshun Sachin Patil | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
